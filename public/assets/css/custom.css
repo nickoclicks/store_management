@@ -1,0 +1,44 @@
+/***** Custom Tweaks for Store Management Dashboard *****/
+.sidebar {
+    min-height: 100vh;
+    background: #2d3e50;
+    color: #fff;
+    padding-top: 2rem;
+}
+.sidebar .nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+    background: #1abc9c;
+    color: #fff;
+    border-radius: 0.375rem;
+}
+.sidebar .nav-link i {
+    min-width: 1.2em;
+    text-align: center;
+}
+.main-content {
+    padding: 2rem 1.5rem;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+        padding-top: 1rem;
+    }
+    .main-content {
+        padding: 1rem 0.5rem;
+    }
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-footer {
+    border-top: none;
+} 
